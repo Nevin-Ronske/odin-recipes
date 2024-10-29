@@ -1,0 +1,97 @@
+
+/* **************************************** */
+/* ************** Universal *************** */
+/* **************************************** */
+
+:root {
+    --text-color:#E9EBEE;
+    --background-color:#202020;;
+}
+
+
+* {
+    /* border: 2px solid red; */
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    color: var(--text-color);
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    background-color: var(--background-color);
+}
+
+#header h1 {
+    background-image: url(/a781ce32751817.56929eefe4f71.jpg);
+display: flex;
+justify-content: center;
+background-color:orange;
+padding:1rem;
+border: 2px black solid;
+max-width: 1500px;
+color: black;
+font-size: 40px;
+
+}
+/* **************************************** */
+/* ************** Index *************** */
+/* **************************************** */
+.title-index  {
+text-align: center;
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+ 
+}
+.main-box {
+display: flex;
+    max-width: 1500px;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+ 
+}
+.main-box .index-img {
+   border: 2px black solid;
+
+}
+#pie {
+margin-left: 30px;
+}
+
+ .head-title{
+    display: flex;
+    margin: 5px 20px;
+    text-decoration: none;
+    font-size: 35px;
+margin-bottom: 1rem;
+justify-content:center;
+}
+.main-box .link {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    border: #202020 2px solid;
+    border-radius: 10px;
+}
+
+.footer{
+    background-image: url(/a781ce32751817.56929eefe4f71.jpg);
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    background-color:orange;
+    padding:1rem;
+    border: 2px black solid;
+    max-width: 1500px;
+    color: black;
+    font-size: 20px;
+}
+/* **************************************** */
+/* *********** Chicken alfredo ************ */
+/* **************************************** */
+
+
+
